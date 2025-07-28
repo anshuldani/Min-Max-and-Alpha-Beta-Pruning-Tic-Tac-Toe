@@ -2,8 +2,7 @@
 Project Description
 This project implements two adversarial search algorithms - MiniMax and MiniMax with Alpha-Beta
 Pruning - applied to the game of Tic-Tac-Toe. The program simulates both human vs. computer and
-computer vs. computer gameplay. Algorithms are implemented exactly as per the pseudocode from
-course lectures.
+computer vs. computer gameplay. Algorithms are implemented exactly as per the pseudocode.
 
 Algorithms Implemented
 - MiniMax
@@ -16,12 +15,12 @@ FIRST: X or O
 MODE: 1 = Human vs Computer, 2 = Computer vs Computer
 
 Game Details
-The 3x3 board is represented using positions 1 to 9. The user is prompted for moves and the
-program validates inputs. On computer moves, it prints the selected move and number of nodes
+The 3x3 board is represented using positions 1 to 9. The user is prompted for moves, and the
+program validates inputs. On computer moves, it prints the selected move and the number of nodes
 generated.
 
 Experimental Results
-Nine games were run with each human first move. The number of nodes expanded by each
+Nine games were run with each human's first move. The number of nodes expanded by each
 algorithm was recorded.
 | Move | MiniMax Nodes | Alpha-Beta Nodes |
 |------|----------------|-------------------|
